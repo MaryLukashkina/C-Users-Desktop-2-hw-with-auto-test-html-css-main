@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background: #fafaff;
 }
 
 
@@ -31,14 +32,14 @@ header span {
 
 
 .main-section {
-    background-color: #fafaff;
+    padding: 60px 0;
     /* Стили для первой секции */
 }
 
 .main-title {
     color: #303030; 
     font-size: 48px;
-    padding: 60px 0 20px;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -50,12 +51,16 @@ header span {
  
     /* Стили для текста в первой секции */
 }
-
+.main-image {
+    max-width: 715px;
+    
+}
 
 
 
 .about-section {
     fill: #fff;
+    padding: 100px 0px;
     /* Стили для второй секции */
 }
 
@@ -87,16 +92,16 @@ select {
 .frameworks-list {
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
     margin-left: 30px;
-    margin-bottom: 0;
+    padding: 0px 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 
 
 .books-list {
-    list-style-type: decimal;
-    margin-left: 19px;
-    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -116,6 +121,8 @@ select {
     width: 330px;
     height: 36px;
     margin-bottom: 60px;
+    font-size: 16px;
+
     /* Стили для односточного поля ввода текста */
 }
 
@@ -138,14 +145,14 @@ select {
 
 .line {
     background: #2965f1;
-    margin-bottom: 60px;
+    margin: 60px 0px;
     /* Стили для линии */
 }
 
 table {
     border-collapse: collapse;
     margin-bottom: 100px;
-
+    font-size: 14px;
 
     /* Стили для таблицы */
 }
@@ -154,7 +161,7 @@ th,
 td {
     height: 40px;
     text-align: left;
-    padding: 10px;
+    padding: 12px 15px;
     border-color: #95a1bb;
     /* Стили для ячеек таблицы */
 }
@@ -168,8 +175,9 @@ footer {
 }
 
 .footer-link {
+    font-weight: 400px;
     font-size: 14px;
-    color: #2965f1;
+    text-decoration-line: none;
 
     /* Стили для футера */
 }
